@@ -2,6 +2,10 @@
 # Python virtual environment for DFU images
 .venv/
 
+node_modules
+package-lock.json
+package.json
+
 # CMake
 cmake-build-*
 cmake-*/
@@ -49,3 +53,4 @@ Testing/Temporary/
 src/nRF5_SDK_15.3.0_59ac345
 src/arm-none-eabi
 
+*.raw
