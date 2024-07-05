@@ -538,7 +538,6 @@ int command_settings(const std::string &program_name, const std::vector<std::str
     auto clockface = settingsController.GetWatchFace();
     auto clockface_str = [](auto val) {
       if (val == Pinetime::Applications::WatchFace::Digital) return "Digital";
-      if (val == Pinetime::Applications::WatchFace::Analog) return "Analog";
       if (val == Pinetime::Applications::WatchFace::PineTimeStyle) return "PineTimeStyle";
       if (val == Pinetime::Applications::WatchFace::Terminal) return "Terminal";
       return "unknown";
