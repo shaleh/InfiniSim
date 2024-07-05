@@ -385,3 +385,5 @@ add_subdirectory(external/nlohmann_json)
 target_link_libraries(littlefs-do PRIVATE miniz)
 target_link_libraries(littlefs-do PRIVATE nlohmann_json::nlohmann_json)
 target_link_libraries(littlefs-do PRIVATE std::filesystem)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DIN_THE_SIM=1")
