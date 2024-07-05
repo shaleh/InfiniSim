@@ -856,37 +856,33 @@ public:
         displayApp.StartApp(Pinetime::Applications::Apps::Clock, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
       else if (screen_idx == 2) {
-        settingsController.SetWatchFace(Pinetime::Applications::WatchFace::PineTimeStyle);
-        displayApp.StartApp(Pinetime::Applications::Apps::Clock, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
-      }
-      else if (screen_idx == 3) {
         displayApp.StartApp(Pinetime::Applications::Apps::Metronome, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 4) {
+      else if (screen_idx == 3) {
         displayApp.StartApp(Pinetime::Applications::Apps::FirmwareUpdate, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 5) {
+      else if (screen_idx == 4) {
         displayApp.StartApp(Pinetime::Applications::Apps::BatteryInfo, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 6) {
+      else if (screen_idx == 5) {
         displayApp.StartApp(Pinetime::Applications::Apps::FlashLight, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 7) {
+      else if (screen_idx == 6) {
         displayApp.StartApp(Pinetime::Applications::Apps::QuickSettings, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 8) {
+      else if (screen_idx == 7) {
         displayApp.StartApp(Pinetime::Applications::Apps::Music, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 9) {
+      else if (screen_idx == 8) {
         displayApp.StartApp(Pinetime::Applications::Apps::SysInfo, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 0) {
+      else if (screen_idx == 9) {
         displayApp.StartApp(Pinetime::Applications::Apps::Steps, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 11) {
+      else if (screen_idx == 0) {
         displayApp.StartApp(Pinetime::Applications::Apps::Error, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
-      else if (screen_idx == 12) {
+      else if (screen_idx == 11) {
         displayApp.StartApp(Pinetime::Applications::Apps::PassKey, Pinetime::Applications::DisplayApp::FullRefreshDirections::None);
       }
       else {
